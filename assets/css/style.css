@@ -1,0 +1,99 @@
+/* Page background  */
+body {
+    background: linear-gradient(135deg, #ffe4f2, #ffd1e8);
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* Title Styling  */
+
+h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 60px;
+    color: #ff2f92;
+
+    text-shadow:
+        0 0 5px #ff9bd2,
+        0 0 10px #ff9bd2,
+        0 0 20px #ff4da6;
+
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Sparkle Divider */
+
+.sparkle-divider {
+    font-size: 26px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+
+    color: #ff4da6;
+
+    text-shadow:
+        0 0 5px #ff9bd2,
+        0 0 10px #ff6fb3;
+}
+
+.sparkle-divider {
+    animation: sparkle 2s infinite alternate;
+}
+
+@keyframes sparkle {
+    from { opacity: 0.6; }
+    to { opacity: 1; }
+}
+/* Paragraph text */
+
+p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+
+    color: #b84c8a;
+
+    max-width: 650px;
+    margin: auto;
+    margin-top: 20px;
+
+    line-height: 1.7;
+}
+
+/* Image styling */
+
+img {
+    margin-top: 25px;
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 10px #ff9bd2,
+        0 0 20px #ff6fb3,
+        0 0 35px #ff4da6;
+
+    transition: 0.3s;
+}
+img:hover {
+    box-shadow:
+        0 0 15px #ff9bd2,
+        0 0 30px #ff6fb3,
+        0 0 50px #ff2f92;
+}
+
+/* Styling of link */
+
+a {
+    color: #ff2f92;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d63384;
+    text-decoration: underline;
+}
